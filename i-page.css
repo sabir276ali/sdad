@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:linear-gradient(rgba(0, 0, 0, 0.521),rgba(0, 0, 0, 0.753)) ,url(image/Delivery_express15.jpg);
+    background-size:cover ;
+  }
+.hero{
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
+position: absolute;
+}
+
+/* nav*/
+
+
+nav{
+    background-color:rgba(3, 3, 3, 0.658);
+    height: 5px;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+width: 150px;
+}
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-link ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ff1100;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-link ul li:hover::after{
+    width: 100%;
+
+}
+
+.box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    overflow: hidden;
+}
+.b-box{
+    width: 220px;
+    margin:35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #0808081f;
+    border-radius: 30px;
+}
+.togle-btn{
+    padding: 10px 30px;
+    cursor:pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, red,orange );
+    border-radius: 30px;
+transition: .5s;
+}
+.social{
+    
+    margin: 30px auto ;
+    text-align: center;
+    
+}
+.social img{
+    width: 30px;
+    margin: 0 12px;
+    cursor: pointer;
+    box-shadow:0 0 12px 0px red ;
+}
+.i{
+    top: 180px;
+    position: absolute
+   ;
+   width: 280px; 
+    transition: .5s;
+}
+.i-f{
+    width:100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-left:  0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.l-b{
+    width: 85%;padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,red,orange);
+    border:0;
+    outline: none;
+    border-radius: 10px;
+}
+.c-b{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: blueviolet;
+    font-size: 12px;
+    bottom: 68px;
+    position: left;
+}
+#l-p{
+left: 50px;
+}
+#r-p{
+    left: 450px;
+}

@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>
+    login page
+</title>
+<link rel="stylesheet" href="i-page.css">
+</head>
+
+<body>
+
+
+<!--contact-->
+    <div class="hero">
+       
+        <div class="box">
+            <div class="b-box">
+                <dev id="btn"></dev>
+<button class="togle-btn" onclick="login()">login</button>
+<button class="togle-btn" onclick="register()">Register</button>
+                          </div>
+
+             <div class="social">
+        <img src="image/facebook-512.png" >
+        <img src="image/twitr.png" >
+        <img src="image/google.png" >
+    </div>    
+     <form id="l-p" class="i">
+<input  type="text" class="i-f" placeholder="user id" required>
+<input type="password" class="i-f" placeholder="Password" required>
+<input type="checkbox" class="c-b" ><span>Remember password</span>
+<button type="submit" class="l-b">Login</button>
+      </form>    
+      <form id="r-p" class="i">
+        <input type="text" class="i-f" placeholder="user id" required>
+        <input type="email" class="i-f" placeholder="email" required>
+        <input type="password" class="i-f" placeholder="Password" required>
+        <input type="checkbox" class="c-b" ><span>i Remember
+            terms and conditions
+        </span>
+        <button type="submit" class="l-b">Login</button>
+              </form>      
+        </div>
+     
+    </div> 
+
+  
+    <script>
+        var x=document.getElementById("l-p");
+        var y=document.getElementById("r-p");
+        var z=document.getElementById("btn");
+        function register(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+    </script>
+   
+    </body>
+</html>
+</body>
+
+</html>xz
